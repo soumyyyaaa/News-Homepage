@@ -17,3 +17,13 @@ body {
     color: hsl(5, 85%, 63%);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .title {
+        color: hsl(240, 100%, 5%);
+        margin-left: 5%;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+}

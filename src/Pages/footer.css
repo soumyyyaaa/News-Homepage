@@ -38,3 +38,29 @@
     cursor: pointer;
     color: hsl(5, 85%, 63%);
 }
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        display: block;
+        margin-top: 15%;
+    }
+    
+    .news-container {
+        margin-top: 6%;
+    }
+    
+    .right-box {
+        margin-left: 5%;
+    }
+    
+    .heading-number {
+        font-size: 2.5rem;
+        margin-bottom: 6%;
+    }
+    
+    .heading-news {
+        margin-bottom: 6%;
+        font-size: 1.5rem;
+    }
+    
+}

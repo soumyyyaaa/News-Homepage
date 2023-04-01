@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
+.hidden-img {
+    display: none;
+}
+
 .grid-container {
   display: grid;
   gap: 2%;
@@ -28,6 +32,10 @@
 
 .item4 {
     padding: 5% 5% 5% 15%;
+}
+
+.item5 {
+    display: none;
 }
 
 .title-new {
@@ -76,4 +84,58 @@
 
 .read-more:hover {
     background-color: hsl(240, 100%, 5%);
+}
+
+@media only screen and (max-width: 768px) {
+    .hidden-img {
+        display: block;
+    }
+    
+    .grid-container {
+        display: block;
+    }
+      
+    .item1 {
+        display: none;
+    }
+      
+    .item2 {
+        display: none;
+    }
+    
+    .item3 {
+        padding: 5% 0 5% 0;
+    }
+    
+    .item4 {
+        padding: 0;
+    }
+    
+    .item5 {
+        padding: 8% 8% 8% 8%;
+        display: block;
+        background-color: hsl(240, 100%, 5%);
+        margin-top: 15%;
+    }
+      
+    .title-new {
+        font-size: 2.5rem;
+    }
+      
+    .title-news {
+        font-size: 1.2rem;
+    }
+
+    .para-news {
+        font-size: 1rem;
+    }
+      
+    .web-heading {
+        font-size: 3rem;
+    }
+      
+    .read-more {
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
 }
