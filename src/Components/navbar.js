@@ -29,11 +29,11 @@ function NavbarWebsite() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1" className = "title">Home</Nav.Link>
-                  <Nav.Link href="#action2" className = "title">New</Nav.Link>
-                  <Nav.Link href="#action2" className = "title">Popular</Nav.Link>
-                  <Nav.Link href="#action2" className = "title">Trending</Nav.Link>
-                  <Nav.Link href="#action2" className = "title">Categories</Nav.Link>
+                  <Nav.Link href="#" className = "title">Home</Nav.Link>
+                  <Nav.Link href="#" className = "title">New</Nav.Link>
+                  <Nav.Link href="#" className = "title">Popular</Nav.Link>
+                  <Nav.Link href="#" className = "title">Trending</Nav.Link>
+                  <Nav.Link href="#" className = "title">Categories</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

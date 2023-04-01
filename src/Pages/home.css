@@ -7,7 +7,7 @@
   text-align: left;
   font-family: 'Inter', sans-serif;
   margin-left: 1%;
-  margin-right: 4%;
+  margin-right: 2%;
 }
 
 .item1 {
@@ -19,7 +19,7 @@
   grid-column: 3;
   grid-row: 1 / span 2;
   background-color: hsl(240, 100%, 5%);
-  padding: 10%;
+  padding: 8% 8% 0 8%;
 }
 
 .item3 {
@@ -33,12 +33,14 @@
 .title-new {
     color: hsl(35, 77%, 62%);
     font-weight: 800;
+    font-size: 3rem;
 }
 
 .title-news {
     color: hsl(36, 100%, 99%);
     font-weight: 700;
-    margin-top: 6%;
+    margin-top: 10%;
+    font-size: 1.5rem;
 }
 
 .title-news:hover {
@@ -53,6 +55,7 @@
 
 .line-news {
     color: hsl(233, 8%, 79%);
+    margin-top: 10%;
 }
 
 .web-heading {
@@ -64,10 +67,11 @@
 .read-more {
     background-color: hsl(5, 85%, 63%);
     border: none;
-    padding: 2% 8%;
+    padding: 4% 10%;
     color: hsl(36, 100%, 99%);
     font-weight: 700;
     margin-top: 8%;
+    font-size: 1.5rem;
 }
 
 .read-more:hover {
