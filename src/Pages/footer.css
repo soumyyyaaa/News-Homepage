@@ -1,1 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+.footer-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 8%;
+    text-align: left;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    gap: 3%;
+}
+
+.news-container {
+    display: flex;
+}
+
+.right-box {
+    margin-left: 5%;
+}
+
+.heading-number {
+    font-weight: 800;
+    color: hsl(233, 8%, 79%);
+    font-size: 3.5rem;
+    margin-bottom: 6%;
+}
+
+.heading-news {
+    color: hsl(240, 100%, 5%);
+    margin-bottom: 6%;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.heading-news:hover {
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
